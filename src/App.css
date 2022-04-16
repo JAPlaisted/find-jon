@@ -1,38 +1,100 @@
-.App {
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+@media screen and (min-width: 728px) {
+  .container { 
+    padding: 6rem; 
+    flex-direction: row;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+html,
+body {
+  overflow-x: hidden;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  background-image:url(https://flevix.com/wp-content/uploads/2019/12/Motion-Background.svg);
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Color Palette */
+:root {
+  --color-headings: whitesmoke;
+}
+
+
+/* Typography */
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  color: var(--color-headings);
+}
+
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 2.4rem;
+  line-height: 1.5;
+  position: relative;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  margin-bottom: 4rem;
+}
+
+h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3rem;
+  margin-bottom: 6rem;
+  margin-top: 8rem;
+}
+
+h3 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 0.05;
+  color: var(--color-headings);
+}
+
+p {
+  margin-top: 0;
+}
+
+@media screen and (min-width: 728px) {
+  body {
+    font-size: 1.8rem;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  h1 {
+    font-size: 8rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 8rem;
   }
 }
