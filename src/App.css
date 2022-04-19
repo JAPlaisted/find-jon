@@ -37,6 +37,12 @@ html {
   background-repeat: no-repeat;
 }
 
+@media (prefers-reduced-motion) {
+  html {
+    background-color: #0f151e;
+  }
+}
+
 /* Color Palette */
 :root {
   --color-headings: whitesmoke;
