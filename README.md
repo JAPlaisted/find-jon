@@ -1,4 +1,4 @@
-## Zoa Energy Landing Page 
+## Find Jon
 
 This single page React app is my solution to sites like Instagram only offering a spot for a single link. This find me page makes it easier for people to connect and network with me. Built with React, JavaScript, and CSS.
 
