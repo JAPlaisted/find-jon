@@ -4,10 +4,10 @@ import Sprite from '../assets/sprite.svg'
 class Home extends Component {
     render() { 
         return ( 
-            <div>
+            <div className='overlay'>
                 <h1>Jonathan Plaisted</h1>
                 <h2>WORK WITH ME</h2>
-                <div className="container">
+                <div className="container media__container">
                     <span className="icon-container">
                     <a href="https://jonathanplaisted.com"><h3>JP</h3></a>
                     </span>
@@ -35,7 +35,7 @@ class Home extends Component {
                 </div>
 
                 <h2>CONNECT WITH ME</h2>
-                <div className="container">
+                <div className="container media__container">
                     <span className="icon-container">
                     <a href="https://www.youtube.com/channel/UC0DfJMEOlTu8KuBR9vdE05A">
                       <svg className='icon'>
@@ -67,7 +67,7 @@ class Home extends Component {
                 </div>
 
                 <h2>CONTACT ME</h2>
-                <div className="container">
+                <div className="container media__container">
                   <span className="icon-container">
                     <a href="mailto: jonathan.plaisted@outlook.com">
                       <svg className='icon'>
