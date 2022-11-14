@@ -5,6 +5,7 @@ class Home extends Component {
     render() { 
         return ( 
             <div className='overlay'>
+              <img className='profile' src="https://scontent.fsac1-1.fna.fbcdn.net/v/t1.6435-9/153429534_1470617403132487_5856980359235368869_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=OYCgEamv0HMAX-3Yrd0&_nc_oc=AQkdYP8G_PDy1AAE5n_QKFz_l5Y9hJM5NXC1uBt_OZgRbsAc7NdJDXmwJohVrlb1xEQEGa74gqqXL6ISfswB7tzT&_nc_ht=scontent.fsac1-1.fna&oh=00_AfBJN8trR5X5YWgySjrGRq9Z1dJ26lM3AIjefge7GZv9eg&oe=639A23E8" alt="Jonathan Plaisted" />
                 <h1>Jonathan Plaisted</h1>
                 <h2>WORK WITH ME</h2>
                 <div className="container media__container">
