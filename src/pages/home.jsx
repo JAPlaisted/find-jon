@@ -9,13 +9,14 @@ class Home extends Component {
                 <h2>WORK WITH ME</h2>
                 <div className="container media__container">
                     <span className="icon-container">
-                    <a href="https://jonathanplaisted.com"><h3>JP</h3></a>
+                    <a href="https://jonathanplaisted.com"><h3>Portfolio</h3></a>
                     </span>
                     <span className="icon-container">
                     <a href="https://www.linkedin.com/in/jonathan-plaisted/">
                       <svg className='icon'>
                         <use xlinkHref={`${Sprite}#linkedin`}/>
                       </svg>
+                      <h4>LinkedIn</h4>
                      </a>
                   </span>
                   <span className="icon-container">
@@ -23,6 +24,7 @@ class Home extends Component {
                       <svg className='icon'>
                         <use xlinkHref={`${Sprite}#github`}/>
                       </svg>
+                      <h4>GitHub</h4>
                      </a>
                   </span>
                   <span className="icon-container">
@@ -30,6 +32,7 @@ class Home extends Component {
                       <svg className='icon'>
                         <use xlinkHref={`${Sprite}#codepen`}/>
                       </svg>
+                      <h4>CodePen</h4>
                      </a>
                   </span>
                 </div>
@@ -41,13 +44,15 @@ class Home extends Component {
                       <svg className='icon'>
                         <use xlinkHref={`${Sprite}#youtube`}/>
                       </svg>
+                      <h4>YouTube</h4>
                      </a>
                   </span>
                   <span className="icon-container">
                     <a href="https://www.instagram.com/initrandom/">
                       <svg className='icon'>
-                        <use xlinkHref={`${Sprite}#instagram`}/>
+                        <use xlinkHref={`${Sprite}#instagram`} />
                       </svg>
+                      <h4>Instagram</h4>
                      </a>
                   </span>
                   <span className="icon-container">
@@ -55,6 +60,7 @@ class Home extends Component {
                       <svg className='icon'>
                         <use xlinkHref={`${Sprite}#facebook`}/>
                       </svg>
+                      <h4>Facebook</h4>
                      </a>
                   </span>
                   <span className="icon-container">
@@ -62,6 +68,7 @@ class Home extends Component {
                       <svg className='icon'>
                         <use xlinkHref={`${Sprite}#twitter`}/>
                       </svg>
+                      <h4>Twitter</h4>
                      </a>
                   </span>
                 </div>
@@ -73,6 +80,7 @@ class Home extends Component {
                       <svg className='icon'>
                         <use xlinkHref={`${Sprite}#email`}/>
                       </svg>
+                      <h4>Email</h4>
                      </a>
                   </span>
                   <span className="icon-container">
@@ -80,6 +88,7 @@ class Home extends Component {
                       <svg className='icon'>
                         <use xlinkHref={`${Sprite}#discord`}/>
                       </svg>
+                      <h4>Discord</h4>
                      </a>
                   </span>
                 </div>
