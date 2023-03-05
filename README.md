@@ -8,7 +8,7 @@ https://cosmic-sunburst-b998ed.netlify.app/
 
 ## Project Screenshots
 
-![findjon](https://user-images.githubusercontent.com/55415399/163903858-198c154c-be5a-45b5-a0b8-3814c76d208f.PNG)
+![findjon](https://user-images.githubusercontent.com/55415399/205344282-c529f8db-9806-4342-b69f-77140d4f1504.PNG)
 
 ## Installation
 
