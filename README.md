@@ -1,30 +1,41 @@
-## Find Jon
+# Find Jon
 
-This single page React app is my solution to sites like Instagram only offering a spot for a single link. This find me page makes it easier for people to connect and network with me. Built with React, JavaScript, and CSS.
-
-## Visit Live Site
-
-https://cosmic-sunburst-b998ed.netlify.app/
-
-## Project Screenshots
-
-![findjon](https://user-images.githubusercontent.com/55415399/205344282-c529f8db-9806-4342-b69f-77140d4f1504.PNG)
+The React application presented here serves as a solution to the constraint posed by certain websites, such as Instagram, which only allow for a singular link. 
 
 ## Installation
 
-npm install
+To install Find Jon, follow these steps:
 
-### To Run Test Suite
+Clone the repository to your local machine.
+Install the required dependencies using npm install.
+Start the development server using npm start.
 
-npm test
+## Usage
 
-### To Start Server
+View the live site here:
 
-npm start
+https://cosmic-sunburst-b998ed.netlify.app/
 
-## Reflection
+OR
 
-While building this project, I learned a lot about working with sprite.svg's in React. This project uses a lot of icons that needed to look good on many screen sizes and load quickly. My solution of using sprite.sgv's accomplishes this well. 
+To use Find Jon, follow these steps:
 
-This project is built with React.
+Open your web browser and navigate to http://localhost:3000.
 
+## Contributing
+
+If you'd like to contribute to Find Jon, please follow these guidelines:
+
+Fork the repository and create a new branch for your changes.
+Make your changes and test them thoroughly.
+Submit a pull request to the main repository and describe your changes in detail.
+
+## Screen Shots
+
+![chat1](https://user-images.githubusercontent.com/55415399/223568248-e22f32c2-e909-4d23-a380-185a9e2dcc02.JPG)
+![chat2](https://user-images.githubusercontent.com/55415399/223568250-0800fb49-7b2a-4e0b-83d0-d6c767b80f3d.JPG)
+
+
+
+## Credits
+Find Jon was created by Jonathan Plaisted.
