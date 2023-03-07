@@ -5,7 +5,7 @@ class Home extends Component {
     render() { 
         return ( 
             <div className='overlay'>
-              <img className='profile' src="https://scontent.fsac1-1.fna.fbcdn.net/v/t1.6435-9/132157664_1428617190665842_4193283602348039575_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_ohc=fvdj-ijuowsAX-b5Sef&_nc_ht=scontent.fsac1-1.fna&oh=00_AfBUXJFZQypUz3QSjggFNBCuCGRaeF_syCb3y_O2oEnqEQ&oe=642B8120" alt="Jonathan Plaisted" />
+              <img className='profile' src="https://cdn.midjourney.com/a2619c3c-66fa-4fb8-bd1f-3d7405bad6a7/grid_0.png" alt="Man in hot air balloon" />
                 <h1>Jonathan Plaisted</h1>
                 <h2>WORK WITH ME</h2>
                 <div className="container media__container">
